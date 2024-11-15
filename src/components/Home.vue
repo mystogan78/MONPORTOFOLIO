@@ -9,7 +9,7 @@
       </div>
     </section>
 <div class="cliquez-ici"> 
-        <h3> Si vous vouliez en savoir plus sur les métiers cliquez sur la photo correspondante</h3>
+        <h3> "En savoir plus ? Cliquez sur les images ci-dessous."</h3>
       </div>
     <!-- Bannière avec images et vidéos associées -->
     <div class="hero-section">
@@ -135,13 +135,18 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  display: flex;
+  justify-content: center;
+}
 .home, .hero-section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: aqua;
+
+
 }
+
 .cliquez-ici{
   display: flex;
   justify-content: center;

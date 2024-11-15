@@ -12,10 +12,17 @@
 
     </div>
     <div >
+      <h3>"Découvrez plus d'informations en cliquant sur les images."</h3>
       <ul class="liens">
-        <li><a href="https://fr.wikipedia.org/wiki/Football"><img src="@/assets/images/soccer-ball-2121x1414.jpg" width="300" height="300" alt=""></a></li>
-        <li><a href="https://fr.wikipedia.org/wiki/Tennis"><img src="@/assets/images/tennis-serve - Copie.jpg" width="300" height="300" alt=""></a></li>
-        <li><a href="https://www.vieplusagreable.com/2023/05/comment-relever-les-defis-avec-succes.html"><img src="@/assets/images/relever-defi.jpg" width="300" height="300" alt=""></a></li>
+        <li class="Football" v-show="isImageVisible.Football">
+          <a href="https://fr.wikipedia.org/wiki/Football">
+          <img src="@/assets/images/soccer-ball-2121x1414.jpg" width="300" height="300" alt=""></a></li>
+        <li class="Tennis" v-show="isImageVisible.Tennis">
+          <a href="https://fr.wikipedia.org/wiki/Tennis">
+            <img src="@/assets/images/tennis-serve - Copie.jpg" width="300" height="300" alt=""></a></li>
+        <li class="Defi" v-show="isImageVisible.Defi">
+          <a href="https://www.vieplusagreable.com/2023/05/comment-relever-les-defis-avec-succes.html">
+            <img src="@/assets/images/relever-defi.jpg" width="300" height="300" alt=""></a></li>
       </ul>
     </div>
     <div class="articles-section">
@@ -34,7 +41,35 @@
   
   <script>
   export default {
-    name: 'About'
+   data() {
+    return{
+      isImageVisible: {
+        Football: false,
+        Tennis: false,
+        Defi: false,
+      },
+    };
+   },
+   methods: {
+    showImagesSequentially() {
+      setTimeout(() => {
+        this.isImageVisible.Football = true; // La première image devient visible après 1 seconde
+
+      }, 1000);
+      setTimeout(() => {
+        this.isImageVisible.Tennis = true; // La deuxieme image devient visible après 2 seconde
+
+      }, 2000);
+
+      setTimeout(() => {
+        this.isImageVisible.Defi = true; // La troisieme image devient visible après 3 seconde
+
+      }, 3000);
+    },
+   },
+   mounted() {
+    this.showImagesSequentially(); // Appeler la méthode au montage du composant
+   }
   };
   </script>
   
@@ -42,8 +77,15 @@
   h1{
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: blueviolet;
     color: antiquewhite;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    text-decoration: underline;
+
   }
 .liens{
   display: flex;

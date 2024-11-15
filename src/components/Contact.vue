@@ -19,13 +19,21 @@
         <p class="tel"><a href="tel:+33615155027">contacter moi</a></p>
       </div>
     </div>
+
+    <div class="emoji">
+      <img src="@/assets/images/postale.jpg" width="300" height="300" alt="">
+      <img src="@/assets/images/email.jpg" width="300" height="300" alt="">
+      <img src="@/assets/images/telephone.jpg" width="300" height="300" alt="">
+
+    </div>
     <div class="articles-section">
       <h2>Retrouver-Moi aussi sur :</h2>
       <ul>
-        <p class="github"><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a></p>
-        <p class="linkedin"><a href="https://fr.linkedin.com/"> <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a></p>
-        <p class="facebook"><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a></p>
-        <p class="instagram"><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a></p>
+        <li class="github"><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a></li>
+        <li class="linkedin"><a href="https://fr.linkedin.com/"> <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a></li>
+        <li class="facebook"><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a></li>
+
         <!-- Ajoutez d'autres articles ici -->
       </ul>
       <p class="creation">créer le 30/10/2024</p>
@@ -76,6 +84,10 @@
     width: 100%;
     margin-bottom: 20px;
   }
+}
+.emoji{
+  display: flex;
+  justify-content: space-around;
 }
 .articles-section {
  padding: 1px;
