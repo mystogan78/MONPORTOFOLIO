@@ -19,17 +19,17 @@ Cela fait depuis de nombreuses années de par ma curiosité, que je m’intér
       <h3>"Plongez dans les détails en cliquant sur les images."</h3>
       <ul>
   <li class="structure" v-show="isImageVisible.structure">
-    <a href="https://fr.wikipedia.org/wiki/Structures_m%C3%A9talliques">
+    <a href="https://fr.wikipedia.org/wiki/Structures_m%C3%A9talliques" target="_blank" rel="noopener noreferrer">
       <img src="@/assets/images/normes-et-réglementations.jpg" width="300" height="300" alt="">
     </a>
   </li>
   <li class="rc mantois" v-show="isImageVisible.rcMantois">
-    <a href="https://www.ratpcap.com/ce-que-nous-faisons/nos-reseaux-mantois-paris-saclay-et-bievre/">
+    <a href="https://www.ratpcap.com/ce-que-nous-faisons/nos-reseaux-mantois-paris-saclay-et-bievre/" target="_blank" rel="noopener noreferrer">
       <img src="@/assets/images/RC_mantois.jpg" width="300" height="300" alt="">
     </a>
   </li>
   <li class="developpeur" v-show="isImageVisible.developpeur">
-    <a href="https://www.hellowork.com/fr-fr/metiers/developpeur-web.html">
+    <a href="https://www.hellowork.com/fr-fr/metiers/developpeur-web.html" target="_blank" rel="noopener noreferrer" >
       <img src="@/assets/images/metier-developpeur-web-1.jpg" width="300" height="300">
     </a>
   </li>
@@ -45,10 +45,18 @@ Cela fait depuis de nombreuses années de par ma curiosité, que je m’intér
       <h2>Retrouver-Moi aussi sur :</h2>
       <ul>
 
-        <li class="github"><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a></li>
-        <li class="linkedin"><a href="https://fr.linkedin.com/"> <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a></li>
-        <li class="facebook"><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a></li>
-        <li class="instagram"><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a></li>
+        <li class="github"><a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
+          <img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a>
+        </li>
+        <li class="linkedin"><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer">
+           <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a>
+          </li>
+        <li class="facebook"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a>
+        </li>
+        <li class="instagram"><a href="https://www.instagram.com/"target="_blank" rel="noopener noreferrer" >
+          <img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a>
+        </li>
       
         <!-- Ajoutez d'autres articles ici -->
       </ul>

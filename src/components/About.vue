@@ -1,6 +1,6 @@
 <template>
     <div class="propos">
-      <h1>À propos de moi</h1>
+      <h1>À propos</h1>
       <p>
   Bonjour à tous, je m'appelle Ibrahim KONTE. Je suis né le 16 mars 1981 à Mantes-la-Jolie et j'ai grandi dans les Yvelines. À l'école, je n'étais pas très studieux, j'étais plutôt rêveur.<br>
   J'ai 7 frères et sœurs. Plus jeune, je pratiquais beaucoup de sports (football, tennis), et cela a toujours été un défi pour moi de gagner, de m'améliorer et d'apprendre sans me contenter de mes acquis.<br>
@@ -15,23 +15,34 @@
       <h3>"Découvrez plus d'informations en cliquant sur les images."</h3>
       <ul class="liens">
         <li class="Football" v-show="isImageVisible.Football">
-          <a href="https://fr.wikipedia.org/wiki/Football">
-          <img src="@/assets/images/soccer-ball-2121x1414.jpg" width="300" height="300" alt=""></a></li>
+          <a href="https://fr.wikipedia.org/wiki/Football" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/soccer-ball-2121x1414.jpg" width="300" height="300" alt=""></a>
+        </li>
         <li class="Tennis" v-show="isImageVisible.Tennis">
-          <a href="https://fr.wikipedia.org/wiki/Tennis">
-            <img src="@/assets/images/tennis-serve - Copie.jpg" width="300" height="300" alt=""></a></li>
+          <a href="https://fr.wikipedia.org/wiki/Tennis" target="_blank" rel="noopener noreferrer" >
+            <img src="@/assets/images/tennis-serve - Copie.jpg" width="300" height="300" alt=""></a>
+          </li>
         <li class="Defi" v-show="isImageVisible.Defi">
-          <a href="https://www.vieplusagreable.com/2023/05/comment-relever-les-defis-avec-succes.html">
-            <img src="@/assets/images/relever-defi.jpg" width="300" height="300" alt=""></a></li>
+          <a href="https://www.vieplusagreable.com/2023/05/comment-relever-les-defis-avec-succes.html" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/images/relever-defi.jpg" width="300" height="300" alt=""></a>
+          </li>
       </ul>
     </div>
     <div class="articles-section">
       <h2>Retrouvez-moi aussi sur :</h2>
       <ul class="reseau">
-        <li><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg" width="50" height="50" alt=""></a></li>
-        <li><a href="https://fr.linkedin.com/"><img src="@/assets/images/linkedin.png" width="50" height="50" alt=""></a></li>
-        <li><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png" width="50" height="50" alt=""></a></li>
-        <li><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png" width="50" height="50" alt=""></a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/ghithub.jpg" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/linkedin.png" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://www.facebook.com/"target="_blank" rel="noopener noreferrer" >
+          <img src="@/assets/images/facebook.png" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/instagram-logo-300x300.png" width="50" height="50" alt=""></a>
+        </li>
       </ul>
       <p class="creation">Créé le 30/10/2024</p>
     </div>

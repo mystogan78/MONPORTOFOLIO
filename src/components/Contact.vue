@@ -6,17 +6,17 @@
       <div class="column">
         <i class="icon icon-wanderlust"></i>
         <h3>Coordonnés Postale</h3>
-        <p class="address"><a href="http://www.google.fr/maps">Cliquez-ici</a></p>
+        <p class="address"><a href="http://www.google.fr/maps" target="_blank" rel="noopener noreferrer">Cliquez-ici</a></p>
       </div>
       <div class="column">
         <i class="icon icon-ideas"></i>
         <h3>Adresse Mail</h3> 
-        <p class="mail"><a href="mailto:ibouba782@gmail.com">Ecrivez-moi</a></p>
+        <p class="mail"><a href="mailto:ibouba782@gmail.com" target="_blank" rel="noopener noreferrer">Ecrivez-moi</a></p>
       </div>
       <div class="column">
         <i class="icon icon-blogger"></i>
         <h3>Téléphone</h3>
-        <p class="tel"><a href="tel:+33615155027">contacter moi</a></p>
+        <p class="tel"><a href="tel:+33615155027" target="_blank" rel="noopener noreferrer">contacter moi</a></p>
       </div>
     </div>
 
@@ -29,10 +29,18 @@
     <div class="articles-section">
       <h2>Retrouver-Moi aussi sur :</h2>
       <ul>
-        <li class="github"><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a></li>
-        <li class="linkedin"><a href="https://fr.linkedin.com/"> <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a></li>
-        <li class="facebook"><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a></li>
-        <li class="instagram"><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a></li>
+        <li class="github"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a>
+        </li>
+        <li class="linkedin"><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer"> 
+          <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a>
+        </li>
+        <li class="facebook"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a>
+        </li>
+        <li class="instagram"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a>
+        </li>
 
         <!-- Ajoutez d'autres articles ici -->
       </ul>

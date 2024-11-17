@@ -65,10 +65,18 @@
     <div class="articles-section">
       <h2>Retrouvez-Moi aussi sur :</h2>
       <ul class="liens">
-        <li><a href="https://github.com/"><img src="@/assets/images/ghithub.jpg" width="50" height="50" alt=""></a></li>
-        <li><a href="https://fr.linkedin.com/"><img src="@/assets/images/linkedin.png" width="50" height="50" alt=""></a></li>
-        <li><a href="https://www.facebook.com/"><img src="@/assets/images/facebook.png" width="50" height="50" alt=""></a></li>
-        <li><a href="https://www.instagram.com/"><img src="@/assets/images/instagram-logo-300x300.png" width="50" height="50" alt=""></a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/ghithub.jpg" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/linkedin.png" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img src="@/assets/images/facebook.png" width="50" height="50" alt=""></a>
+        </li>
+        <li><a href="https://www.instagram.com/"target="_blank" rel="noopener noreferrer" >
+          <img src="@/assets/images/instagram-logo-300x300.png" width="50" height="50" alt=""></a>
+        </li>
       </ul>
       <p class="creation">Créé le 30/10/2024</p>
     </div>
