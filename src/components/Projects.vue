@@ -34,35 +34,9 @@ Cela fait depuis de nombreuses années de par ma curiosité, que je m’intér
     </a>
   </li>
 </ul>
-
-
-
-    
     </div>
     
-    <footer>
-      <div class="articles-section">
-      <h2>Retrouver-Moi aussi sur :</h2>
-      <ul>
-
-        <li class="github"><a href="https://github.com/" target="_blank" rel="noopener noreferrer" >
-          <img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a>
-        </li>
-        <li class="linkedin"><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer">
-           <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a>
-          </li>
-        <li class="facebook"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a>
-        </li>
-        <li class="instagram"><a href="https://www.instagram.com/"target="_blank" rel="noopener noreferrer" >
-          <img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a>
-        </li>
-      
-        <!-- Ajoutez d'autres articles ici -->
-      </ul>
-      <p class="creation">créer le 30/10/2024</p>
-    </div>
-  </footer>
+    
     
   </template>
   
@@ -119,38 +93,17 @@ mounted() {
     text-decoration: underline;
   }
 
-footer{
-  align-items: end;
-}
-  .articles-section {
- padding: 1px;
-  background-color: darkgray;
-
-}
- 
-
 
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
- 
+  
 }
-h2{
-  display: flex;
-  justify-content: center;
-}
-img{ 
+img{
   border-radius: 50%;
-    box-shadow: 0 0 30px black;
+    box-shadow: 0 0 30px aqua;
     margin-top: 15px;
 }
-.creation{
-  display: flex;
-  justify-content: center;
-
-}
-
-  
   </style>
   

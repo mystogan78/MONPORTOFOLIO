@@ -21,31 +21,12 @@
     </div>
 
     <div class="emoji">
-      <img src="@/assets/images/postale.jpg" width="300" height="300" alt="">
-      <img src="@/assets/images/email.jpg" width="300" height="300" alt="">
-      <img src="@/assets/images/telephone.jpg" width="300" height="300" alt="">
+      <img src="@/assets/images/postale.jpg" width="200" height="200" alt="">
+      <img src="@/assets/images/email.jpg" width="200" height="200" alt="">
+      <img src="@/assets/images/telephone.jpg" width="200" height="200" alt="">
 
     </div>
-    <div class="articles-section">
-      <h2>Retrouver-Moi aussi sur :</h2>
-      <ul>
-        <li class="github"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          <img src="@/assets/images/ghithub.jpg"width="50" height="50" alt="git"></a>
-        </li>
-        <li class="linkedin"><a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer"> 
-          <img src="@/assets/images/linkedin.png"width="50" height="50" alt=""></a>
-        </li>
-        <li class="facebook"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <img src="@/assets/images/facebook.png"width="50" height="50" alt=""></a>
-        </li>
-        <li class="instagram"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <img src="@/assets/images/instagram-logo-300x300.png"width="50" height="50" alt=""></a>
-        </li>
-
-        <!-- Ajoutez d'autres articles ici -->
-      </ul>
-      <p class="creation">créer le 30/10/2024</p>
-    </div>
+  
   </template>
   
   <script>
@@ -97,34 +78,11 @@
   display: flex;
   justify-content: space-around;
 }
-.articles-section {
- padding: 1px;
-  background-color: darkgray;
-  align-items: end;
 
-}
- 
-
-
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
- 
-}
-h2{
-  display: flex;
-  justify-content: center;
-}
 img{ 
   border-radius: 50%;
     box-shadow: 0 0 30px black;
     margin-top: 15px;
-}
-.creation{
-  display: flex;
-  justify-content: center;
-
 }
 
   </style>

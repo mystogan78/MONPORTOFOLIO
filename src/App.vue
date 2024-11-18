@@ -1,24 +1,35 @@
 <template>
   <div id="app">
-    <!-- Ne mets que le strict nécessaire -->
     <Header />
-    <keep-alive>
-      <router-view />
-    </keep-alive>
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-
+import Footer from './components/Footer.vue';
 export default {
-  name: 'App',
   components: {
-    Header
-  }
+    Header,
+    Footer,
+  },
 };
 </script>
-
 <style>
-/* Ajoute des styles simples si nécessaire */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+  height: 10vh;
+}
 </style>
+
